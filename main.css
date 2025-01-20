@@ -1,0 +1,98 @@
+table {
+
+    border: 3px solid #344861;
+    border-collapse: collapse;
+
+}
+
+td {
+
+    height: 50px;
+    width: 60px;
+    background-color: white;
+    border: 1px solid #bec6d4;
+    text-align: center;
+    font-family: Courier New, sans-serif;
+    font-size: 35px;
+    color: #344861;
+
+}
+
+.border-bottom td {
+
+    border-bottom: 2px solid #344861;
+
+}
+
+.column3, .column6 {
+
+    border-right: 2px solid #344861;
+
+}
+
+.container {
+
+    display: flex;
+
+}
+
+.numbers {
+
+    margin-top: 10px;
+    font-family: Courier New, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #007bff;
+
+}
+
+.numbers div {
+
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.error {
+
+    background-color: #f7cfd6;
+    color: red;
+
+}
+
+.cell {
+
+    cursor: pointer;
+
+}
+
+.blocked {
+
+    font-weight: bolder;
+
+}
+
+.selected {
+
+    background-color: #bbdefb
+
+}
+
+.btn {
+
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.options {
+
+    margin-top: 10px;
+    margin-left: 25px;
+    font-family: Monospaced, monospace;
+    color: #344861;
+
+}
